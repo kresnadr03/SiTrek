@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jenis\nTransportasi Umum"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- Subjudul -->
+    <TextView
+        android:id="@+id/tvSubjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pilih jenis kendaraan yang sedang Anda gunakan agar pengguna lain dapat melihat lokasinya secara real-time."
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+    <!-- RecyclerView Card -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransportasi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Tombol Pilih -->
+    <Button
+        android:id="@+id/btnPilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Transportasi"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#0077D7"
+        android:textColor="#FFFFFF" />
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EEEEEE"
+        android:textColor="#000000" />
+
+</LinearLayout>

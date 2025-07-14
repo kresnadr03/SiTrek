@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_card_unselected"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgTransportasi"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_bus" />
+
+    <TextView
+        android:id="@+id/tvNamaTransportasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Suroboyo"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center" />
+</LinearLayout>

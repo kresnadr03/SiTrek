@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ModeActivity">
+
+    <!-- Fullscreen background bus image -->
+
+    <!-- Kontainer putih dengan rounded di atas -->
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_bus" />
+
+    <LinearLayout
+        android:id="@+id/containerCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="72dp"
+        android:paddingBottom="24dp"
+        android:paddingHorizontal="24dp"
+        android:background="@drawable/bg_card_mode"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mode Pengguna"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/tvSubjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagikan lokasi kendaraan umum atau temukan\nkendaraan umum terdekat dengan mudah"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Button Penyedia -->
+        <Button
+            android:id="@+id/btnPenyedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mode Penyedia"
+            android:backgroundTint="#0077D7"
+            android:textColor="#FFFFFF" />
+
+        <!-- Button Penunggu -->
+        <Button
+            android:id="@+id/btnPenunggu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mode Penunggu"
+            android:backgroundTint="#EEEEEE"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+
+    <!-- Logo SITREK (melayang di tengah atas container putih) -->
+    <ImageView
+        android:id="@+id/logoSITREK"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="220dp"
+        android:src="@drawable/logositrek" />
+</RelativeLayout>

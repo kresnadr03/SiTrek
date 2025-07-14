@@ -30,7 +30,7 @@ SITREK adalah aplikasi Android yang memungkinkan pelacakan **kendaraan umum seca
 
 | Lihat Peta (Penunggu) | Storyboard (Alur GUI) |
 |-----------------------|------------------------|
-| ![Peta](screenshots/lihat_peta.jpg) | ![Storyboard](screenshots/storyboard.jpg) |
+| ![Peta](screenshots/lihat_peta.jpg) | ![Storyboard](screenshots/storyboard.png) |
 
 
 ---

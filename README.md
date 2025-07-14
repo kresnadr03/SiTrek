@@ -2,7 +2,6 @@
 
 ![Platform](https://img.shields.io/badge/platform-android-blue.svg)
 ![Firebase](https://img.shields.io/badge/backend-Firebase-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-selesai-blue)
 
 SITREK adalah aplikasi Android yang memungkinkan pelacakan **kendaraan umum secara real-time**, menggunakan **Firebase Realtime Database** dan metodologi **ICONIX Process** dalam pengembangannya. Aplikasi ini dirancang untuk membantu **pengguna (penunggu)** dalam melihat posisi kendaraan dan **penyedia lokasi** untuk membagikan lokasi kendaraan yang mereka tumpangi.

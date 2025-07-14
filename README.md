@@ -18,11 +18,20 @@ SITREK adalah aplikasi Android yang memungkinkan pelacakan **kendaraan umum seca
 
 ---
 
-## 📱 Tampilan Antarmuka
+## 📱 Tampilan Antarmuka Aplikasi SITREK
 
-| Splash | Pilih Mode | Pilih Transportasi |
-|--------|------------|--------------------|
-| ![splash](screenshots/splash.png) | ![mode](screenshots/mode.png) | ![pilih](screenshots/pilih.png) |
+| Splash Screen | Mode Pengguna | Pilih Kendaraan |
+|---------------|---------------|-----------------|
+| ![Splash](screenshots/splash.jpg) | ![Mode](screenshots/mode_pengguna.jpg) | ![Pilih](screenshots/pilih_kendaraan.jpg) |
+
+| Aktifkan Lokasi | Berbagi Lokasi | Konfirmasi Berhasil |
+|-----------------|----------------|----------------------|
+| ![Aktifkan](screenshots/aktifkan_lokasi.jpg) | ![Berbagi](screenshots/berbagi_lokasi.jpg) | ![Berhasil](screenshots/berbagi_lokasi_2.jpg) |
+
+| Lihat Peta (Penunggu) | Storyboard (Alur GUI) |
+|-----------------------|------------------------|
+| ![Peta](screenshots/lihat_peta.jpg) | ![Storyboard](screenshots/storyboard.jpg) |
+
 
 ---
 

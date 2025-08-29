@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_rounded">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_ring_lokasi"
+        android:contentDescription="Icon Lokasi" />
+
+    <TextView
+        android:text="Aktifkan Fitur Lokasi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Untuk menampilkan kendaraan umum terdekat real-time, SiTrek memerlukan akses lokasi Anda."
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnIzinkanLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nyalakan Fitur Lokasi"
+        android:backgroundTint="#0077D7"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

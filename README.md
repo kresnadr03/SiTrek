@@ -4,29 +4,38 @@
 ![Firebase](https://img.shields.io/badge/backend-Firebase-orange)
 ![Status](https://img.shields.io/badge/status-selesai-blue)
 
-SITREK adalah aplikasi Android yang memungkinkan pelacakan **kendaraan umum secara real-time**, menggunakan **Firebase Realtime Database** dan metodologi **ICONIX Process** dalam pengembangannya. Aplikasi ini dirancang untuk membantu **pengguna (penunggu)** dalam melihat posisi kendaraan dan **penyedia lokasi** untuk membagikan lokasi kendaraan yang mereka tumpangi.
+SITREK adalah aplikasi Android yang memungkinkan pelacakan *kendaraan umum secara real-time, menggunakan **Firebase Realtime Database* dan metodologi *ICONIX Process* dalam pengembangannya. Aplikasi ini dirancang untuk membantu *pengguna (penunggu)* dalam melihat posisi kendaraan dan *penyedia lokasi* untuk membagikan lokasi kendaraan yang mereka tumpangi.
 
 ---
 
 ## ✨ Fitur Utama
 
-- 🔍 **Mode Penunggu:** Melihat lokasi kendaraan secara langsung di peta.
-- 📤 **Mode Penyedia:** Mengirim data lokasi kendaraan ke Firebase secara berkala.
-- 🗳️ **Resolusi Konflik Lokasi:** Sistem voting mayoritas + prioritas pengirim pertama.
-- 📍 **Google Maps Integration:** Visualisasi posisi kendaraan secara real-time.
-- 🛡️ **Manajemen Izin Lokasi** sesuai standar Android 11+.
+- 🔍 *Mode Penunggu:* Melihat lokasi kendaraan secara langsung di peta.
+- 📤 *Mode Penyedia:* Mengirim data lokasi kendaraan ke Firebase secara berkala.
+- 🗳 *Resolusi Konflik Lokasi:* Sistem voting mayoritas + prioritas pengirim pertama.
+- 📍 *Google Maps Integration:* Visualisasi posisi kendaraan secara real-time.
+- 🛡 *Manajemen Izin Lokasi* sesuai standar Android 11+.
 
 ---
 
-## 📱 Tampilan Antarmuka
+## 📱 Tampilan Antarmuka Aplikasi SITREK
 
-| Splash | Pilih Mode | Pilih Transportasi |
-|--------|------------|--------------------|
-| ![splash](screenshots/splash.png) | ![mode](screenshots/mode.png) | ![pilih](screenshots/pilih.png) |
+| Splash Screen | Mode Pengguna | Pilih Kendaraan |
+|---------------|---------------|-----------------|
+| ![Splash](screenshots/splash.jpg) | ![Mode](screenshots/mode_pengguna.jpg) | ![Pilih](screenshots/pilih_kendaraan.jpg) |
+
+| Aktifkan Lokasi | Berbagi Lokasi | Konfirmasi Berhasil |
+|-----------------|----------------|----------------------|
+| ![Aktifkan](screenshots/aktifkan_lokasi.jpg) | ![Berbagi](screenshots/berbagi_lokasi.jpg) | ![Berhasil](screenshots/berbagi_lokasi_2.jpg) |
+
+| Lihat Peta (Penunggu) | Storyboard (Alur GUI) |
+|-----------------------|------------------------|
+| ![Peta](screenshots/lihat_peta.jpg) | ![Storyboard](screenshots/storyboard.png) |
+
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## ⚙ Teknologi yang Digunakan
 
 - Kotlin (Android Studio)
 - Firebase Realtime Database
@@ -40,24 +49,24 @@ SITREK adalah aplikasi Android yang memungkinkan pelacakan **kendaraan umum seca
 ## 🚀 Cara Menjalankan Aplikasi
 
 1. Clone repository ini:
-    ```bash
+    bash
     git clone https://github.com/username/SITREK.git
-    ```
+    
 
-2. Buka folder di **Android Studio**.
+2. Buka folder di *Android Studio*.
 
 3. Aktifkan Google Maps API dan Firebase:
-    - Tambahkan `google-services.json` ke dalam folder `app/`
+    - Tambahkan google-services.json ke dalam folder app/
     - Konfigurasikan Firebase Realtime Database rules (untuk testing):
 
-      ```json
+      json
       {
         "rules": {
           ".read": true,
           ".write": true
         }
       }
-      ```
+      
 
 4. Jalankan aplikasi di emulator atau perangkat fisik.
 
